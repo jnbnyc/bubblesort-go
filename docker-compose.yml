@@ -1,0 +1,9 @@
+---
+
+server:
+    build: .
+    # volumes:
+    #     - './:/go'
+    ports:
+        - '8080:8080'
+
